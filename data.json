@@ -1,0 +1,61 @@
+{
+  "title": "Irlanda em família",
+  "subtitle": "18–24 de novembro · Um roteiro simples, sem correria.",
+  "days": [
+    {
+      "date": "18 NOV",
+      "title": "Chegada & Dublin",
+      "stops": [
+        {
+          "type": "Ponto de partida",
+          "name": "Dublin Airport",
+          "arrival": "12:30",
+          "duration": "30 min",
+          "description": "Buscar a família no aeroporto, pegar as malas e seguir para o almoço.",
+          "imageUrl": "https://images.unsplash.com/photo-1549918864-48ac978761a4?auto=format&fit=crop&w=1200&q=80",
+          "routeToNext": { "distance": "15 km", "time": "25 min" }
+        },
+        {
+          "type": "Almoço",
+          "name": "Dublin City Centre",
+          "arrival": "13:30",
+          "duration": "1h 30min",
+          "description": "Almoço tranquilo e uma primeira caminhada pelo centro de Dublin.",
+          "imageUrl": "https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?auto=format&fit=crop&w=1200&q=80",
+          "routeToNext": { "distance": "22 km", "time": "35 min" }
+        },
+        {
+          "type": "Fim do dia",
+          "name": "Casa",
+          "arrival": "17:00",
+          "duration": "Noite",
+          "description": "Descansar da viagem e jantar em casa ou perto de casa.",
+          "imageUrl": ""
+        }
+      ]
+    },
+    {
+      "date": "19 NOV",
+      "title": "Estrada & paisagens",
+      "stops": [
+        {
+          "type": "Partida",
+          "name": "Casa",
+          "arrival": "08:00",
+          "duration": "15 min",
+          "description": "Café tomado, carro abastecido e começo da viagem.",
+          "imageUrl": "",
+          "routeToNext": { "distance": "130 km", "time": "1h 45min" }
+        },
+        {
+          "type": "Destino",
+          "name": "Exemplo de destino",
+          "arrival": "09:45",
+          "duration": "2h",
+          "description": "Troque este item pelos lugares reais do seu roteiro diretamente no data.json.",
+          "imageUrl": "https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?auto=format&fit=crop&w=1200&q=80"
+        }
+      ]
+    }
+  ]
+}

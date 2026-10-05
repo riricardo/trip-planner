@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f5f5f7" />
+  <title>Meu Roteiro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="shell">
+      <p class="eyebrow">Ric plan</p>
+      <h1 id="trip-title">Roteiro</h1>
+      <p id="trip-subtitle" class="subtitle">Carregando roteiro...</p>
+    </div>
+  </header>
+
+  <main class="shell">
+    <div id="days" class="days" aria-live="polite"></div>
+    <p id="error" class="error" hidden></p>
+  </main>
+
+  <template id="day-template">
+    <section class="day-card">
+      <header class="day-header">
+        <div>
+          <p class="day-date"></p>
+          <h2 class="day-title"></h2>
+        </div>
+      </header>
+      <div class="stops"></div>
+    </section>
+  </template>
+
+  <template id="stop-template">
+    <article class="stop">
+      <div class="timeline-column">
+        <span class="timeline-dot"></span>
+      </div>
+      <div class="stop-content">
+        <img class="stop-image" alt="" loading="lazy" />
+        <div class="stop-topline">
+          <div>
+            <p class="stop-type"></p>
+            <h3 class="stop-name"></h3>
+          </div>
+          <span class="arrival"></span>
+        </div>
+        <p class="duration"></p>
+        <p class="description"></p>
+        <a class="images-button" target="_blank" rel="noopener noreferrer">Ver imagens <span>↗</span></a>
+      </div>
+    </article>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
