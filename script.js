@@ -46,7 +46,73 @@ function renderDay(day) {
     }
   });
 
+  const routeButton = renderDayRoute(stops, day.date);
+  if (routeButton) {
+    stopsContainer.append(routeButton);
+  }
+
   return fragment;
+}
+
+function getStopAddress(stop) {
+  return typeof stop.address === "string" ? stop.address.trim() : "";
+}
+
+function getStopMapQuery(stop) {
+  if (getStopAddress(stop)) {
+    return getStopAddress(stop);
+  }
+
+  return typeof stop.name === "string" ? stop.name.trim() : "";
+}
+
+function buildDayRouteUrl(stops) {
+  const points = stops
+    .filter((stop) => stop.includeInMapRoute !== false)
+    .map(getStopMapQuery)
+    .filter(Boolean);
+
+  if (points.length < 2) {
+    return "";
+  }
+
+  const routeUrl = new URL("https://www.google.com/maps/dir/");
+  routeUrl.searchParams.set("api", "1");
+  routeUrl.searchParams.set("origin", points[0]);
+  routeUrl.searchParams.set("destination", points[points.length - 1]);
+  routeUrl.searchParams.set("travelmode", "driving");
+
+  if (points.length > 2) {
+    routeUrl.searchParams.set("waypoints", points.slice(1, -1).join("|"));
+  }
+
+  return routeUrl.toString();
+}
+
+function renderDayRoute(stops, dayDate) {
+  const routeUrl = buildDayRouteUrl(stops);
+
+  if (!routeUrl) {
+    return null;
+  }
+
+  const routeButton = document.createElement("a");
+  routeButton.className = "day-route-button";
+  routeButton.href = routeUrl;
+  routeButton.target = "_blank";
+  routeButton.rel = "noopener noreferrer";
+  routeButton.setAttribute(
+    "aria-label",
+    `Abrir rota completa de ${dayDate || "este dia"} no Google Maps`
+  );
+  routeButton.append("Rota completa no Google Maps ");
+
+  const arrow = document.createElement("span");
+  arrow.setAttribute("aria-hidden", "true");
+  arrow.textContent = "↗";
+  routeButton.append(arrow);
+
+  return routeButton;
 }
 
 function renderStop(stop) {
@@ -60,6 +126,20 @@ function renderStop(stop) {
   fragment.querySelector(".arrival").hidden = !stop.arrival;
   fragment.querySelector(".duration").textContent = stop.duration ? `⏱ ${stop.duration}` : "";
   fragment.querySelector(".duration").hidden = !stop.duration;
+
+  const address = getStopAddress(stop);
+  const addressLink = fragment.querySelector(".address-link");
+  addressLink.hidden = !address;
+
+  if (address) {
+    const mapsUrl = new URL("https://www.google.com/maps/search/");
+    mapsUrl.searchParams.set("api", "1");
+    mapsUrl.searchParams.set("query", address);
+    addressLink.href = mapsUrl.toString();
+    addressLink.querySelector(".address-text").textContent = address;
+    addressLink.setAttribute("aria-label", `Abrir ${address} no Google Maps`);
+  }
+
   fragment.querySelector(".description").textContent = stop.description || "";
   fragment.querySelector(".description").hidden = !stop.description;
 
@@ -74,11 +154,14 @@ function renderStop(stop) {
   }
 
   const imagesButton = fragment.querySelector(".images-button");
-  const imagesUrl = typeof stop.googleImages === "string" ? stop.googleImages.trim() : "";
-  imagesButton.hidden = !imagesUrl;
+  const imagesQuery = typeof stop.googleImages === "string" ? stop.googleImages.trim() : "";
+  imagesButton.hidden = !imagesQuery;
 
-  if (imagesUrl) {
-    imagesButton.href = imagesUrl;
+  if (imagesQuery) {
+    const imagesUrl = new URL("https://www.google.com/search");
+    imagesUrl.searchParams.set("tbm", "isch");
+    imagesUrl.searchParams.set("q", imagesQuery);
+    imagesButton.href = imagesUrl.toString();
     imagesButton.setAttribute("aria-label", `Ver imagens de ${stop.name || "esta parada"}`);
   }
 

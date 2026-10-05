@@ -1,59 +1,592 @@
 {
   "title": "Irlanda em família",
-  "subtitle": "18–24 de novembro · Um roteiro simples, sem correria.",
+  "subtitle": "18–24 de novembro de 2026 · Dublin, castelos, Ring of Kerry e boa comida.",
   "days": [
     {
       "date": "18 NOV",
-      "title": "Chegada & Dublin",
+      "title": "Chegada à Irlanda",
       "stops": [
         {
-          "type": "Ponto de partida",
+          "type": "Chegada",
           "name": "Dublin Airport",
+          "arrival": "10:55",
+          "duration": "1h",
+          "description": "Chegada à Irlanda. Tempo para desembarque, imigração, malas e encontro no aeroporto.",
+          "imageUrl": "https://images.ctfassets.net/czgd0092azr0/article-757-image-1/5ab56fc498bc41c71267621ae519cc11/image-1-8e5da99a.jpg",
+          "address": "Dublin Airport, Collinstown, Co. Dublin, Ireland",
+          "googleImages": "Dublin Airport Ireland",
+          "routeToNext": {
+            "distance": "≈ 25 km",
+            "time": "≈ 30–40 min"
+          }
+        },
+        {
+          "type": "Casa",
+          "name": "Leixlip",
           "arrival": "12:30",
-          "duration": "30 min",
-          "description": "Buscar a família no aeroporto, pegar as malas e seguir para o almoço.",
-          "imageUrl": "https://images.unsplash.com/photo-1549918864-48ac978761a4?auto=format&fit=crop&w=1200&q=80",
-          "routeToNext": { "distance": "15 km", "time": "25 min" }
-        },
-        {
-          "type": "Almoço",
-          "name": "Dublin City Centre",
-          "arrival": "13:30",
-          "duration": "1h 30min",
-          "description": "Almoço tranquilo e uma primeira caminhada pelo centro de Dublin.",
-          "imageUrl": "https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?auto=format&fit=crop&w=1200&q=80",
-          "routeToNext": { "distance": "22 km", "time": "35 min" }
-        },
-        {
-          "type": "Fim do dia",
-          "name": "Casa",
-          "arrival": "17:00",
-          "duration": "Noite",
-          "description": "Descansar da viagem e jantar em casa ou perto de casa.",
-          "imageUrl": ""
+          "duration": "Resto do dia",
+          "description": "Ir para casa, descansar da viagem e passar o primeiro dia com calma. Almoço e jantar podem ser em casa ou algo simples perto de Leixlip.",
+          "imageUrl": "",
+          "address": "Leixlip, Co. Kildare, Ireland",
+          "googleImages": ""
         }
       ]
     },
     {
       "date": "19 NOV",
-      "title": "Estrada & paisagens",
+      "title": "Dublin & Guinness",
       "stops": [
         {
           "type": "Partida",
-          "name": "Casa",
-          "arrival": "08:00",
+          "name": "Leixlip",
+          "arrival": "08:30",
           "duration": "15 min",
-          "description": "Café tomado, carro abastecido e começo da viagem.",
+          "description": "Café da manhã em casa e saída de transporte público para Dublin. O carro fica em casa porque haverá Guinness.",
           "imageUrl": "",
-          "routeToNext": { "distance": "130 km", "time": "1h 45min" }
+          "address": "Leixlip, Co. Kildare, Ireland",
+          "googleImages": "",
+          "routeToNext": {
+            "distance": "≈ 20 km",
+            "time": "≈ 45–60 min"
+          }
+        },
+        {
+          "type": "Atração",
+          "name": "Guinness Storehouse",
+          "arrival": "10:00",
+          "duration": "2h",
+          "description": "Visita à Guinness Storehouse, incluindo a história da Guinness e o Gravity Bar. Como haverá bebida, o passeio será feito usando transporte público.",
+          "imageUrl": "https://www.hotelstgeorgedublin.com/wp-content/uploads/2025/03/guinness-storehouse-factory.jpg",
+          "address": "St. James's Gate, Dublin 8, D08 VF8H, Ireland",
+          "googleImages": "Guinness Storehouse Dublin",
+          "routeToNext": {
+            "distance": "≈ 2 km",
+            "time": "≈ 20–30 min a pé"
+          }
+        },
+        {
+          "type": "Passeio",
+          "name": "Temple Bar",
+          "arrival": "12:30",
+          "duration": "45 min",
+          "description": "Caminhada pela região histórica de Temple Bar. Parada para conhecer e tirar fotos, sem necessidade de passar muito tempo nos pubs.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Templebar-dublin-1.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+          "address": "Temple Bar, Dublin 2, Ireland",
+          "googleImages": "Temple Bar Dublin",
+          "routeToNext": {
+            "distance": "≈ 500 m",
+            "time": "≈ 7 min a pé"
+          }
+        },
+        {
+          "type": "Passeio",
+          "name": "Ha'penny Bridge",
+          "arrival": "13:20",
+          "duration": "20 min",
+          "description": "Passagem pela famosa ponte sobre o River Liffey e pequena caminhada pelo centro.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/HalfPennyBridge.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+          "address": "Ha'penny Bridge, Dublin, Ireland",
+          "googleImages": "Ha'penny Bridge Dublin",
+          "routeToNext": {
+            "distance": "≈ 1.5 km",
+            "time": "≈ 20 min a pé"
+          }
+        },
+        {
+          "type": "Almoço",
+          "name": "Dublin City Centre",
+          "arrival": "13:45",
+          "duration": "1h",
+          "description": "Almoço em Dublin. Não precisa ser uma das refeições especiais da viagem; escolher algo prático e bem avaliado no centro.",
+          "imageUrl": "https://mainstreetmag.com/wp-content/uploads/2025/04/dub10.jpg",
+          "address": "Dublin City Centre, Dublin, Ireland",
+          "googleImages": "Dublin City Centre",
+          "routeToNext": {
+            "distance": "≈ 1 km",
+            "time": "≈ 15 min a pé"
+          }
+        },
+        {
+          "type": "Passeio",
+          "name": "St Stephen's Green",
+          "arrival": "15:00",
+          "duration": "30 min",
+          "description": "Passeio curto pelo parque antes de visitar o Little Museum of Dublin.",
+          "imageUrl": "https://www.civitatis.com/f/irlanda/dublin/guia/st-stephens-green-m.jpg",
+          "address": "St Stephen's Green, Dublin 2, Ireland",
+          "googleImages": "St Stephen's Green Dublin",
+          "routeToNext": {
+            "distance": "≈ 200 m",
+            "time": "≈ 3 min a pé"
+          }
+        },
+        {
+          "type": "Museu",
+          "name": "The Little Museum of Dublin",
+          "arrival": "15:30",
+          "duration": "1h 15min",
+          "description": "Museu sobre a história de Dublin. Inclui conteúdo sobre a história da cidade e o sucesso global do U2.",
+          "imageUrl": "https://i.guim.co.uk/img/media/99fd5ab49c30dec11da324e81736ad776627dbe7/367_0_5063_4051/master/5063.jpg?width=465&dpr=1&s=none&crop=none",
+          "address": "15 St Stephen's Green, Dublin 2, D02 Y066, Ireland",
+          "googleImages": "Little Museum Dublin U2 Made in Dublin",
+          "routeToNext": {
+            "distance": "≈ 20 km",
+            "time": "≈ 45–60 min"
+          }
+        },
+        {
+          "type": "Fim do dia",
+          "name": "Leixlip",
+          "arrival": "18:00",
+          "duration": "Noite",
+          "description": "Volta de transporte público para casa. Jantar em casa e descanso antes do início da road trip.",
+          "imageUrl": "",
+          "address": "Leixlip, Co. Kildare, Ireland",
+          "googleImages": ""
+        }
+      ]
+    },
+    {
+      "date": "20 NOV",
+      "title": "Castelos & caminho para Kerry",
+      "stops": [
+        {
+          "type": "Partida",
+          "name": "Leixlip",
+          "arrival": "07:00",
+          "duration": "15 min",
+          "description": "Café da manhã em casa, carro abastecido e início da road trip.",
+          "imageUrl": "",
+          "address": "Leixlip, Co. Kildare, Ireland",
+          "googleImages": "",
+          "routeToNext": {
+            "distance": "≈ 150 km",
+            "time": "≈ 1h 45min–2h"
+          }
+        },
+        {
+          "type": "Castelo",
+          "name": "Rock of Cashel",
+          "arrival": "09:00",
+          "duration": "1h 30min",
+          "description": "Um dos conjuntos medievais mais importantes da Irlanda. Explorar as ruínas, arquitetura e vistas de Cashel.",
+          "imageUrl": "https://tourtailors.com/wp-content/uploads/2025/05/discover-the-rock-of-cashel-1024x760.jpg",
+          "address": "St. Patrick's Rock of Cashel, Cashel, Co. Tipperary, Ireland",
+          "googleImages": "Rock of Cashel Ireland",
+          "routeToNext": {
+            "distance": "≈ 20 km",
+            "time": "≈ 20–25 min"
+          }
+        },
+        {
+          "type": "Castelo",
+          "name": "Cahir Castle",
+          "arrival": "11:00",
+          "duration": "1h 15min",
+          "description": "Visita a um dos castelos medievais mais preservados da Irlanda.",
+          "imageUrl": "https://heritageireland.ie/assets/uploads/2020/03/Cahir-Castle-Inside-Castle-Walls.jpg",
+          "address": "Castle St, Cahir, Co. Tipperary, Ireland",
+          "googleImages": "Cahir Castle Ireland",
+          "routeToNext": {
+            "distance": "≈ 115 km",
+            "time": "≈ 1h 40min–2h"
+          }
+        },
+        {
+          "type": "Almoço rápido",
+          "name": "Lanche de mercado",
+          "arrival": "12:20",
+          "duration": "25 min",
+          "includeInMapRoute": false,
+          "description": "Refeição simples de mercado ou deli para não gastar as horas de luz do dia em restaurante.",
+          "imageUrl": ""
         },
         {
           "type": "Destino",
-          "name": "Exemplo de destino",
-          "arrival": "09:45",
+          "name": "Killarney",
+          "arrival": "15:00",
+          "duration": "Fim da tarde",
+          "description": "Chegada a Killarney, check-in na hospedagem e tempo livre para conhecer um pouco da cidade antes do jantar.",
+          "imageUrl": "",
+          "address": "Killarney, Co. Kerry, Ireland",
+          "googleImages": "Killarney Ireland"
+        },
+        {
+          "type": "Jantar",
+          "name": "Bricín Restaurant and Boxty House",
+          "arrival": "18:00",
+          "duration": "1h 45min",
+          "description": "Uma das refeições especiais da viagem. Restaurante irlandês tradicional conhecido pelo boxty.",
+          "imageUrl": "https://fahafalconry.com/wp-content/uploads/2023/05/bricin-restaurant.jpg",
+          "address": "26 High Street, Killarney, Co. Kerry, Ireland",
+          "googleImages": "Bricin Restaurant Killarney"
+        },
+        {
+          "type": "Hospedagem",
+          "name": "Hospedagem em Killarney",
+          "arrival": "20:00",
+          "duration": "Noite",
+          "description": "Dormir em Killarney. Hospedagem ainda será escolhida.",
+          "imageUrl": "",
+          "googleImages": ""
+        }
+      ]
+    },
+    {
+      "date": "21 NOV",
+      "title": "Killarney National Park & Gap of Dunloe",
+      "stops": [
+        {
+          "type": "Partida",
+          "name": "Killarney",
+          "arrival": "08:30",
+          "duration": "30 min",
+          "description": "Café da manhã simples e preparação para aproveitar as horas de luz.",
+          "imageUrl": "",
+          "address": "Killarney, Co. Kerry, Ireland",
+          "googleImages": "",
+          "routeToNext": {
+            "distance": "≈ 6 km",
+            "time": "≈ 10–15 min"
+          }
+        },
+        {
+          "type": "Atração",
+          "name": "Muckross House",
+          "arrival": "09:15",
+          "duration": "1h 15min",
+          "description": "Visita à histórica mansão vitoriana dentro do Killarney National Park.",
+          "imageUrl": "https://muckross-house.ie/wp-content/uploads/2024/06/Sunken-Garden.jpg",
+          "address": "Muckross, Killarney National Park, Co. Kerry, Ireland",
+          "googleImages": "Muckross House Killarney",
+          "routeToNext": {
+            "distance": "≈ 1 km",
+            "time": "≈ 15 min a pé"
+          }
+        },
+        {
+          "type": "Ruínas",
+          "name": "Muckross Abbey",
+          "arrival": "10:45",
+          "duration": "40 min",
+          "description": "Explorar as ruínas da antiga abadia franciscana e seu famoso teixo central.",
+          "imageUrl": "https://thirdeyetraveller.com/wp-content/uploads/Muckross-Abbey-Ireland.jpg",
+          "address": "Muckross Abbey, Killarney National Park, Co. Kerry, Ireland",
+          "googleImages": "Muckross Abbey Ireland",
+          "routeToNext": {
+            "distance": "≈ 4 km",
+            "time": "≈ 10 min"
+          }
+        },
+        {
+          "type": "Natureza",
+          "name": "Torc Waterfall",
+          "arrival": "11:40",
+          "duration": "45 min",
+          "description": "Caminhada curta até uma das cachoeiras mais conhecidas do Killarney National Park.",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH24AqZYdzm1nY9VtFscXNKq3DALg5jzqscO9uMCbXXLgmQdZ45VSqL0Y&s=10",
+          "address": "Torc Waterfall, Killarney National Park, Co. Kerry, Ireland",
+          "googleImages": "Torc Waterfall Killarney",
+          "routeToNext": {
+            "distance": "≈ 10 km",
+            "time": "≈ 15 min"
+          }
+        },
+        {
+          "type": "Almoço rápido",
+          "name": "Lanche de mercado",
+          "arrival": "12:30",
+          "duration": "20 min",
+          "includeInMapRoute": false,
+          "description": "Sanduíches, frutas ou outro lanche simples para aproveitar a luz do dia.",
+          "imageUrl": ""
+        },
+        {
+          "type": "Mirante",
+          "name": "Ladies' View",
+          "arrival": "13:00",
+          "duration": "30 min",
+          "description": "Parada panorâmica com uma das vistas mais famosas do Killarney National Park.",
+          "imageUrl": "https://www.thebrehon.com/wp-content/uploads/2026/02/Ladies-View-Ring-of-KerryCounty-Kerry.tif_TI72YLK-Large.jpeg",
+          "address": "Ladies' View, Killarney National Park, Co. Kerry, Ireland",
+          "googleImages": "Ladies View Killarney",
+          "routeToNext": {
+            "distance": "≈ 35 km",
+            "time": "≈ 45–55 min"
+          }
+        },
+        {
+          "type": "Paisagem",
+          "name": "Gap of Dunloe",
+          "arrival": "14:20",
+          "duration": "1h 30min",
+          "description": "Explorar uma das paisagens montanhosas mais famosas de Kerry enquanto ainda há luz natural.",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStAwpNYv6p_ujpcbycVunSXelHp0bjKm92lZkQqYtWvcprvyX1OiOCZUc&s=10",
+          "address": "Gap of Dunloe, Co. Kerry, Ireland",
+          "googleImages": "Gap of Dunloe Ireland",
+          "routeToNext": {
+            "distance": "≈ 40 km",
+            "time": "≈ 50–60 min"
+          }
+        },
+        {
+          "type": "Destino",
+          "name": "Kenmare",
+          "arrival": "17:00",
+          "duration": "1h",
+          "description": "Chegada e check-in na hospedagem depois do pôr do sol.",
+          "imageUrl": "",
+          "address": "Kenmare, Co. Kerry, Ireland",
+          "googleImages": ""
+        },
+        {
+          "type": "Jantar",
+          "name": "No. 35 Kenmare",
+          "arrival": "18:00",
           "duration": "2h",
-          "description": "Troque este item pelos lugares reais do seu roteiro diretamente no data.json.",
-          "imageUrl": "https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?auto=format&fit=crop&w=1200&q=80"
+          "description": "Refeição especial em restaurante muito bem avaliado, com foco em ingredientes irlandeses e produtos locais.",
+          "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/00/e2/2a/caption.jpg?w=1000&h=1000&s=1",
+          "address": "35 Main Street, Kenmare, Co. Kerry, Ireland",
+          "googleImages": "No 35 Kenmare Restaurant"
+        },
+        {
+          "type": "Hospedagem",
+          "name": "Hospedagem em Kenmare",
+          "arrival": "20:15",
+          "duration": "Noite",
+          "description": "Dormir em Kenmare. Hospedagem ainda será escolhida.",
+          "imageUrl": "",
+          "googleImages": ""
+        }
+      ]
+    },
+    {
+      "date": "22 NOV",
+      "title": "Ring of Kerry & costa",
+      "stops": [
+        {
+          "type": "Partida",
+          "name": "Kenmare",
+          "arrival": "08:00",
+          "duration": "15 min",
+          "description": "Café da manhã simples e saída cedo para aproveitar ao máximo a luz do dia.",
+          "imageUrl": "",
+          "address": "Kenmare, Co. Kerry, Ireland",
+          "googleImages": "",
+          "routeToNext": {
+            "distance": "≈ 27 km",
+            "time": "≈ 30 min"
+          }
+        },
+        {
+          "type": "Vila",
+          "name": "Sneem",
+          "arrival": "08:30",
+          "duration": "30 min",
+          "description": "Parada curta para conhecer a pequena e colorida vila de Sneem.",
+          "imageUrl": "https://images.trvl-media.com/place/6056872/e6a7d176-4bfc-4253-8886-6bae510b1158.jpg",
+          "address": "Sneem, Co. Kerry, Ireland",
+          "googleImages": "Sneem Ireland",
+          "routeToNext": {
+            "distance": "≈ 25 km",
+            "time": "≈ 30–35 min"
+          }
+        },
+        {
+          "type": "Natureza",
+          "name": "Derrynane Beach",
+          "arrival": "09:40",
+          "duration": "50 min",
+          "description": "Caminhada curta e paisagem costeira. Derrynane House estará fechada nesta época, então o foco é a praia.",
+          "imageUrl": "https://secretireland.ie/wp-content/uploads/2025/01/Derrynane-Beach-Johannes-Rigg-Shutterstock-Final.jpg.webp",
+          "address": "Derrynane Beach, Caherdaniel, Co. Kerry, Ireland",
+          "googleImages": "Derrynane Beach Ireland",
+          "routeToNext": {
+            "distance": "≈ 15 km",
+            "time": "≈ 20 min"
+          }
+        },
+        {
+          "type": "Mirante",
+          "name": "Com an Chiste",
+          "arrival": "10:50",
+          "duration": "30 min",
+          "description": "Parada em um dos grandes mirantes costeiros do Ring of Kerry.",
+          "imageUrl": "https://d3fphkxyf5o5bm.cloudfront.net/image-resize/format=webp,w=720/QwRY54Li1HMwD7oNfpMgfGOMfqAqDQVsxVWodn1kgO",
+          "address": "Com an Chiste, Ring of Kerry, Co. Kerry, Ireland",
+          "googleImages": "Com an Chiste Ring of Kerry",
+          "routeToNext": {
+            "distance": "≈ 20 km",
+            "time": "≈ 25 min"
+          }
+        },
+        {
+          "type": "Vila",
+          "name": "Waterville",
+          "arrival": "11:45",
+          "duration": "40 min",
+          "description": "Passeio curto pela vila costeira e pela orla.",
+          "imageUrl": "https://wearetravelgirls.com/wp-content/uploads/2016/10/waterville-ireland-we-are-travel-girls-1.jpg",
+          "address": "Waterville, Co. Kerry, Ireland",
+          "googleImages": "Waterville Kerry Ireland",
+          "routeToNext": {
+            "distance": "≈ 20 km",
+            "time": "≈ 25–30 min"
+          }
+        },
+        {
+          "type": "Almoço rápido",
+          "name": "Lanche de mercado",
+          "arrival": "12:25",
+          "duration": "25 min",
+          "includeInMapRoute": false,
+          "description": "Refeição simples para preservar as horas de luz para as paisagens do Skellig Ring.",
+          "imageUrl": ""
+        },
+        {
+          "type": "Natureza",
+          "name": "Kerry Cliffs",
+          "arrival": "13:20",
+          "duration": "1h 15min",
+          "description": "Uma das principais paisagens da viagem, com falésias dramáticas sobre o Atlântico. Visita sujeita às condições meteorológicas.",
+          "imageUrl": "https://images.cdn-files-a.com/uploads/7172738/800_638c7326ad023.jpg",
+          "address": "Kerry Cliffs, Portmagee, Co. Kerry, Ireland",
+          "googleImages": "Kerry Cliffs Ireland",
+          "routeToNext": {
+            "distance": "≈ 5 km",
+            "time": "≈ 10 min"
+          }
+        },
+        {
+          "type": "Destino",
+          "name": "Portmagee",
+          "arrival": "14:50",
+          "duration": "Fim da tarde",
+          "description": "Chegada cedo a Portmagee. Aproveitar o restante da luz para conhecer a pequena vila e a costa antes do check-in.",
+          "imageUrl": "",
+          "address": "Portmagee, Co. Kerry, Ireland",
+          "googleImages": ""
+        },
+        {
+          "type": "Jantar",
+          "name": "Fisherman's Bar & Skellig Restaurant",
+          "arrival": "18:00",
+          "duration": "1h 45min",
+          "description": "Jantar em Portmagee com foco em frutos do mar e comida local.",
+          "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/66/b9/ae/caption.jpg?w=1100&h=1100&s=1",
+          "address": "Portmagee, Co. Kerry, Ireland",
+          "googleImages": "Fisherman's Bar Skellig Restaurant Portmagee"
+        },
+        {
+          "type": "Hospedagem",
+          "name": "Hospedagem em Portmagee",
+          "arrival": "20:00",
+          "duration": "Noite",
+          "description": "Dormir em Portmagee. Hospedagem ainda será escolhida.",
+          "imageUrl": "",
+          "googleImages": ""
+        }
+      ]
+    },
+    {
+      "date": "23 NOV",
+      "title": "Valentia Island & volta para casa",
+      "stops": [
+        {
+          "type": "Partida",
+          "name": "Portmagee",
+          "arrival": "08:00",
+          "duration": "15 min",
+          "description": "Café da manhã e início do último dia da road trip.",
+          "imageUrl": "",
+          "address": "Portmagee, Co. Kerry, Ireland",
+          "googleImages": "",
+          "routeToNext": {
+            "distance": "≈ 15 km",
+            "time": "≈ 20–25 min"
+          }
+        },
+        {
+          "type": "Paisagem",
+          "name": "Valentia Island",
+          "arrival": "08:30",
+          "duration": "1h 30min",
+          "description": "Explorar parte da ilha de carro, aproveitando as paisagens costeiras antes de iniciar a viagem de volta.",
+          "imageUrl": "https://www.irishcentral.com/uploads/article-v2/2021/7/146962/Enjoying_the_view___Valentia_Island__Co_Kerry_via_Tourism_Ireland.jpg?t=1789562913",
+          "address": "Valentia Island, Co. Kerry, Ireland",
+          "googleImages": "Valentia Island Ireland",
+          "routeToNext": {
+            "distance": "≈ 20 km",
+            "time": "≈ 30 min"
+          }
+        },
+        {
+          "type": "História",
+          "name": "Cahergall Stone Fort",
+          "arrival": "10:30",
+          "duration": "45 min",
+          "description": "Visita curta ao impressionante forte circular de pedra próximo a Cahersiveen.",
+          "imageUrl": "https://s2.wklcdn.com/image_244/7325981/179315688/112757447Master.jpg",
+          "address": "Cahergall Stone Fort, Cahersiveen, Co. Kerry, Ireland",
+          "googleImages": "Cahergall Stone Fort Ireland",
+          "routeToNext": {
+            "distance": "≈ 4 km",
+            "time": "≈ 10 min"
+          }
+        },
+        {
+          "type": "Almoço",
+          "name": "Cahersiveen",
+          "arrival": "11:30",
+          "duration": "1h",
+          "description": "Almoço antes da longa viagem de volta. Escolher um café ou restaurante aberto e bem avaliado no dia.",
+          "imageUrl": "",
+          "address": "Cahersiveen, Co. Kerry, Ireland",
+          "googleImages": "",
+          "routeToNext": {
+            "distance": "≈ 320 km",
+            "time": "≈ 4h–4h 30min"
+          }
+        },
+        {
+          "type": "Fim da road trip",
+          "name": "Leixlip",
+          "arrival": "17:00",
+          "duration": "Noite",
+          "description": "Chegada em casa, jantar simples e descanso antes do voo do dia seguinte.",
+          "imageUrl": "",
+          "address": "Leixlip, Co. Kildare, Ireland",
+          "googleImages": ""
+        }
+      ]
+    },
+    {
+      "date": "24 NOV",
+      "title": "Último dia & aeroporto",
+      "stops": [
+        {
+          "type": "Manhã",
+          "name": "Leixlip",
+          "arrival": "09:00",
+          "duration": "Manhã",
+          "description": "Manhã tranquila em casa, organizar malas e aproveitar as últimas horas juntos.",
+          "imageUrl": "",
+          "address": "Leixlip, Co. Kildare, Ireland",
+          "googleImages": "",
+          "routeToNext": {
+            "distance": "≈ 25 km",
+            "time": "≈ 30–40 min"
+          }
+        },
+        {
+          "type": "Partida",
+          "name": "Dublin Airport",
+          "arrival": "A definir",
+          "duration": "Até o voo",
+          "description": "Levar os pais ao Dublin Airport para o voo de volta ao Brasil. O horário será ajustado quando o horário exato do voo estiver definido.",
+          "imageUrl": "",
+          "address": "Dublin Airport, Collinstown, Co. Dublin, Ireland",
+          "googleImages": "Dublin Airport Ireland"
         }
       ]
     }
