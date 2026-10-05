@@ -5,7 +5,7 @@ const stopTemplate = document.querySelector("#stop-template");
 
 async function loadItinerary() {
   try {
-    const response = await fetch("./data.json");
+    const response = await fetch("./data.json", { cache: "no-store" });
 
     if (!response.ok) {
       throw new Error(`Não foi possível carregar data.json (${response.status}).`);
