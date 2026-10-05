@@ -143,6 +143,11 @@ function renderStop(stop) {
   fragment.querySelector(".description").textContent = stop.description || "";
   fragment.querySelector(".description").hidden = !stop.description;
 
+  const stopMeta = renderStopMeta(stop);
+  if (stopMeta) {
+    fragment.querySelector(".stop-content").insertBefore(stopMeta, addressLink);
+  }
+
   if (imageUrl) {
     image.src = imageUrl;
     image.alt = stop.name || "Imagem da parada";
@@ -166,6 +171,54 @@ function renderStop(stop) {
   }
 
   return fragment;
+}
+
+function renderStopMeta(stop) {
+  const badges = [];
+
+  if (stop.requiresTicket === true) {
+    badges.push("🎟 Ingresso necessário");
+  }
+
+  if (stop.reservationRecommended === true) {
+    badges.push("📅 Reserva recomendada");
+  }
+
+  const notes = [
+    { icon: "🕐", value: stop.openingHours },
+    { icon: "💶", value: stop.priceNote },
+    { icon: "⚠️", value: stop.verificationNote },
+  ].filter(({ value }) => typeof value === "string" && value.trim());
+
+  if (badges.length === 0 && notes.length === 0) {
+    return null;
+  }
+
+  const meta = document.createElement("div");
+  meta.className = "stop-meta";
+
+  if (badges.length > 0) {
+    const badgeList = document.createElement("div");
+    badgeList.className = "stop-badges";
+
+    badges.forEach((label) => {
+      const badge = document.createElement("span");
+      badge.className = "stop-badge";
+      badge.textContent = label;
+      badgeList.append(badge);
+    });
+
+    meta.append(badgeList);
+  }
+
+  notes.forEach(({ icon, value }) => {
+    const note = document.createElement("p");
+    note.className = "stop-note";
+    note.textContent = `${icon} ${value.trim()}`;
+    meta.append(note);
+  });
+
+  return meta;
 }
 
 function renderRoute(route, fromName, toName) {

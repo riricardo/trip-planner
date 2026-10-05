@@ -15,6 +15,9 @@
           "imageUrl": "https://images.ctfassets.net/czgd0092azr0/article-757-image-1/5ab56fc498bc41c71267621ae519cc11/image-1-8e5da99a.jpg",
           "address": "Dublin Airport, Collinstown, Co. Dublin, Ireland",
           "googleImages": "Dublin Airport Ireland",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "24h",
           "routeToNext": {
             "distance": "≈ 25 km",
             "time": "≈ 30–40 min"
@@ -28,7 +31,10 @@
           "description": "Ir para casa, descansar da viagem e passar o primeiro dia com calma. Almoço e jantar podem ser em casa ou algo simples perto de Leixlip.",
           "imageUrl": "",
           "address": "Leixlip, Co. Kildare, Ireland",
-          "googleImages": ""
+          "googleImages": "",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Sem restrição"
         }
       ]
     },
@@ -45,6 +51,9 @@
           "imageUrl": "",
           "address": "Leixlip, Co. Kildare, Ireland",
           "googleImages": "",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Transporte público: conferir horários no dia",
           "routeToNext": {
             "distance": "≈ 20 km",
             "time": "≈ 45–60 min"
@@ -55,10 +64,14 @@
           "name": "Guinness Storehouse",
           "arrival": "10:00",
           "duration": "2h",
-          "description": "Visita à Guinness Storehouse, incluindo a história da Guinness e o Gravity Bar. Como haverá bebida, o passeio será feito usando transporte público.",
+          "description": "Visita à Guinness Storehouse, incluindo a história da Guinness e o Gravity Bar. Comprar ingresso com horário antecipadamente.",
           "imageUrl": "https://www.hotelstgeorgedublin.com/wp-content/uploads/2025/03/guinness-storehouse-factory.jpg",
           "address": "St. James's Gate, Dublin 8, D08 VF8H, Ireland",
           "googleImages": "Guinness Storehouse Dublin",
+          "requiresTicket": true,
+          "reservationRecommended": true,
+          "openingHours": "Entradas com horário marcado; confirmar o slot das 10:00 ao reservar",
+          "priceNote": "Preço dinâmico. Experiência padrão anunciada a partir de aproximadamente €24.",
           "routeToNext": {
             "distance": "≈ 2 km",
             "time": "≈ 20–30 min a pé"
@@ -73,6 +86,9 @@
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Templebar-dublin-1.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
           "address": "Temple Bar, Dublin 2, Ireland",
           "googleImages": "Temple Bar Dublin",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Área pública",
           "routeToNext": {
             "distance": "≈ 500 m",
             "time": "≈ 7 min a pé"
@@ -87,6 +103,9 @@
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/HalfPennyBridge.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
           "address": "Ha'penny Bridge, Dublin, Ireland",
           "googleImages": "Ha'penny Bridge Dublin",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Acesso público",
           "routeToNext": {
             "distance": "≈ 1.5 km",
             "time": "≈ 20 min a pé"
@@ -97,10 +116,13 @@
           "name": "Dublin City Centre",
           "arrival": "13:45",
           "duration": "1h",
-          "description": "Almoço em Dublin. Não precisa ser uma das refeições especiais da viagem; escolher algo prático e bem avaliado no centro.",
+          "description": "Almoço em Dublin. Escolher algo prático e bem avaliado no centro.",
           "imageUrl": "https://mainstreetmag.com/wp-content/uploads/2025/04/dub10.jpg",
           "address": "Dublin City Centre, Dublin, Ireland",
           "googleImages": "Dublin City Centre",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Depende do restaurante escolhido",
           "routeToNext": {
             "distance": "≈ 1 km",
             "time": "≈ 15 min a pé"
@@ -115,6 +137,9 @@
           "imageUrl": "https://www.civitatis.com/f/irlanda/dublin/guia/st-stephens-green-m.jpg",
           "address": "St Stephen's Green, Dublin 2, Ireland",
           "googleImages": "St Stephen's Green Dublin",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "07:30–16:30 em 19/11/2026",
           "routeToNext": {
             "distance": "≈ 200 m",
             "time": "≈ 3 min a pé"
@@ -123,12 +148,16 @@
         {
           "type": "Museu",
           "name": "The Little Museum of Dublin",
-          "arrival": "15:30",
-          "duration": "1h 15min",
-          "description": "Museu sobre a história de Dublin. Inclui conteúdo sobre a história da cidade e o sucesso global do U2.",
+          "arrival": "15:45",
+          "duration": "1h",
+          "description": "Museu sobre a história de Dublin. A visita guiada inclui a história da cidade e conteúdo relacionado ao U2.",
           "imageUrl": "https://i.guim.co.uk/img/media/99fd5ab49c30dec11da324e81736ad776627dbe7/367_0_5063_4051/master/5063.jpg?width=465&dpr=1&s=none&crop=none",
           "address": "15 St Stephen's Green, Dublin 2, D02 Y066, Ireland",
           "googleImages": "Little Museum Dublin U2 Made in Dublin",
+          "requiresTicket": true,
+          "reservationRecommended": true,
+          "openingHours": "09:30–17:00; última entrada 16:30; visitas em horários definidos",
+          "priceNote": "Adulto aproximadamente €18; confirmar preço ao reservar.",
           "routeToNext": {
             "distance": "≈ 20 km",
             "time": "≈ 45–60 min"
@@ -142,7 +171,10 @@
           "description": "Volta de transporte público para casa. Jantar em casa e descanso antes do início da road trip.",
           "imageUrl": "",
           "address": "Leixlip, Co. Kildare, Ireland",
-          "googleImages": ""
+          "googleImages": "",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Sem restrição"
         }
       ]
     },
@@ -159,6 +191,9 @@
           "imageUrl": "",
           "address": "Leixlip, Co. Kildare, Ireland",
           "googleImages": "",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Sem restrição",
           "routeToNext": {
             "distance": "≈ 150 km",
             "time": "≈ 1h 45min–2h"
@@ -173,6 +208,11 @@
           "imageUrl": "https://tourtailors.com/wp-content/uploads/2025/05/discover-the-rock-of-cashel-1024x760.jpg",
           "address": "St. Patrick's Rock of Cashel, Cashel, Co. Tipperary, Ireland",
           "googleImages": "Rock of Cashel Ireland",
+          "requiresTicket": true,
+          "reservationRecommended": true,
+          "openingHours": "09:00–16:30; última entrada 15:45; último tour 14:30",
+          "priceNote": "Adulto aproximadamente €8.",
+          "verificationNote": "Local exposto ao clima e sujeito a fechamento com pouco aviso. Cormac's Chapel exige tour e possui capacidade limitada.",
           "routeToNext": {
             "distance": "≈ 20 km",
             "time": "≈ 20–25 min"
@@ -187,6 +227,10 @@
           "imageUrl": "https://heritageireland.ie/assets/uploads/2020/03/Cahir-Castle-Inside-Castle-Walls.jpg",
           "address": "Castle St, Cahir, Co. Tipperary, Ireland",
           "googleImages": "Cahir Castle Ireland",
+          "requiresTicket": true,
+          "reservationRecommended": false,
+          "openingHours": "09:30–16:30; última entrada 15:45",
+          "verificationNote": "Pré-reserva é especialmente relevante para grupos grandes; para visita familiar normal não é necessária.",
           "routeToNext": {
             "distance": "≈ 115 km",
             "time": "≈ 1h 40min–2h"
@@ -199,17 +243,23 @@
           "duration": "25 min",
           "includeInMapRoute": false,
           "description": "Refeição simples de mercado ou deli para não gastar as horas de luz do dia em restaurante.",
-          "imageUrl": ""
+          "imageUrl": "",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Flexível"
         },
         {
           "type": "Destino",
           "name": "Killarney",
-          "arrival": "15:00",
+          "arrival": "14:30",
           "duration": "Fim da tarde",
           "description": "Chegada a Killarney, check-in na hospedagem e tempo livre para conhecer um pouco da cidade antes do jantar.",
           "imageUrl": "",
           "address": "Killarney, Co. Kerry, Ireland",
-          "googleImages": "Killarney Ireland"
+          "googleImages": "Killarney Ireland",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Sem restrição"
         },
         {
           "type": "Jantar",
@@ -219,7 +269,11 @@
           "description": "Uma das refeições especiais da viagem. Restaurante irlandês tradicional conhecido pelo boxty.",
           "imageUrl": "https://fahafalconry.com/wp-content/uploads/2023/05/bricin-restaurant.jpg",
           "address": "26 High Street, Killarney, Co. Kerry, Ireland",
-          "googleImages": "Bricin Restaurant Killarney"
+          "googleImages": "Bricin Restaurant Killarney",
+          "requiresTicket": false,
+          "reservationRecommended": true,
+          "openingHours": "Confirmar horário de inverno antes da viagem",
+          "verificationNote": "Reservar mesa antecipadamente."
         },
         {
           "type": "Hospedagem",
@@ -228,116 +282,165 @@
           "duration": "Noite",
           "description": "Dormir em Killarney. Hospedagem ainda será escolhida.",
           "imageUrl": "",
-          "googleImages": ""
+          "googleImages": "",
+          "requiresTicket": false,
+          "reservationRecommended": true,
+          "openingHours": "A definir"
         }
       ]
     },
     {
       "date": "21 NOV",
-      "title": "Killarney National Park & Gap of Dunloe",
+      "title": "Gap of Dunloe & Killarney National Park",
       "stops": [
         {
           "type": "Partida",
           "name": "Killarney",
-          "arrival": "08:30",
-          "duration": "30 min",
-          "description": "Café da manhã simples e preparação para aproveitar as horas de luz.",
+          "arrival": "07:45",
+          "duration": "15 min",
+          "description": "Saída cedo para chegar ao Gap of Dunloe próximo ao nascer do sol e aproveitar a estrada com menos movimento.",
           "imageUrl": "",
           "address": "Killarney, Co. Kerry, Ireland",
           "googleImages": "",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Sem restrição",
           "routeToNext": {
-            "distance": "≈ 6 km",
-            "time": "≈ 10–15 min"
+            "distance": "≈ 13 km",
+            "time": "≈ 20 min"
           }
         },
         {
-          "type": "Atração",
-          "name": "Muckross House",
-          "arrival": "09:15",
+          "type": "Rota panorâmica",
+          "name": "Gap of Dunloe",
+          "arrival": "08:10",
           "duration": "1h 15min",
-          "description": "Visita à histórica mansão vitoriana dentro do Killarney National Park.",
-          "imageUrl": "https://muckross-house.ie/wp-content/uploads/2024/06/Sunken-Garden.jpg",
-          "address": "Muckross, Killarney National Park, Co. Kerry, Ireland",
-          "googleImages": "Muckross House Killarney",
+          "description": "Percorrer de carro o Gap of Dunloe em direção ao Black Valley, aproveitando a luz do início da manhã e o menor movimento. Fazer pequenas paradas apenas onde houver local seguro.",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStAwpNYv6p_ujpcbycVunSXelHp0bjKm92lZkQqYtWvcprvyX1OiOCZUc&s=10",
+          "address": "Gap of Dunloe, Co. Kerry, Ireland",
+          "googleImages": "Gap of Dunloe Ireland",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Estrada pública; percurso planejado próximo ao nascer do sol",
+          "verificationNote": "Estrada muito estreita e compartilhada com moradores, pedestres, ciclistas e jaunting cars. Dirigir devagar, dar passagem e parar somente onde for seguro.",
           "routeToNext": {
-            "distance": "≈ 1 km",
-            "time": "≈ 15 min a pé"
+            "distance": "≈ 18 km",
+            "time": "≈ 40–50 min pela Black Valley"
           }
         },
         {
-          "type": "Ruínas",
-          "name": "Muckross Abbey",
-          "arrival": "10:45",
-          "duration": "40 min",
-          "description": "Explorar as ruínas da antiga abadia franciscana e seu famoso teixo central.",
-          "imageUrl": "https://thirdeyetraveller.com/wp-content/uploads/Muckross-Abbey-Ireland.jpg",
-          "address": "Muckross Abbey, Killarney National Park, Co. Kerry, Ireland",
-          "googleImages": "Muckross Abbey Ireland",
+          "type": "Mirante",
+          "name": "Moll's Gap",
+          "arrival": "10:20",
+          "duration": "20 min",
+          "description": "Parada panorâmica após sair da região do Black Valley, com vista para as montanhas e vales de Kerry.",
+          "imageUrl": "",
+          "address": "Moll's Gap, Co. Kerry, Ireland",
+          "googleImages": "Molls Gap Kerry",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Ao ar livre; visitar com luz do dia",
           "routeToNext": {
-            "distance": "≈ 4 km",
-            "time": "≈ 10 min"
+            "distance": "≈ 9 km",
+            "time": "≈ 15 min"
           }
         },
         {
-          "type": "Natureza",
-          "name": "Torc Waterfall",
-          "arrival": "11:40",
-          "duration": "45 min",
-          "description": "Caminhada curta até uma das cachoeiras mais conhecidas do Killarney National Park.",
-          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH24AqZYdzm1nY9VtFscXNKq3DALg5jzqscO9uMCbXXLgmQdZ45VSqL0Y&s=10",
-          "address": "Torc Waterfall, Killarney National Park, Co. Kerry, Ireland",
-          "googleImages": "Torc Waterfall Killarney",
+          "type": "Mirante",
+          "name": "Ladies' View",
+          "arrival": "10:55",
+          "duration": "25 min",
+          "description": "Parada panorâmica com uma das vistas mais famosas dos lagos e montanhas do Killarney National Park.",
+          "imageUrl": "https://www.thebrehon.com/wp-content/uploads/2026/02/Ladies-View-Ring-of-KerryCounty-Kerry.tif_TI72YLK-Large.jpeg",
+          "address": "Ladies' View, Killarney National Park, Co. Kerry, Ireland",
+          "googleImages": "Ladies View Killarney",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Mirante ao ar livre; visitar com luz do dia",
           "routeToNext": {
             "distance": "≈ 10 km",
             "time": "≈ 15 min"
           }
         },
         {
+          "type": "Natureza",
+          "name": "Torc Waterfall",
+          "arrival": "11:35",
+          "duration": "40 min",
+          "description": "Caminhada curta até uma das cachoeiras mais conhecidas do Killarney National Park.",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH24AqZYdzm1nY9VtFscXNKq3DALg5jzqscO9uMCbXXLgmQdZ45VSqL0Y&s=10",
+          "address": "Torc Waterfall, Killarney National Park, Co. Kerry, Ireland",
+          "googleImages": "Torc Waterfall Killarney",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Acesso pedestre ao parque 24h; visitar com luz do dia",
+          "priceNote": "Grátis.",
+          "routeToNext": {
+            "distance": "≈ 4 km",
+            "time": "≈ 10 min"
+          }
+        },
+        {
+          "type": "Ruínas",
+          "name": "Muckross Abbey",
+          "arrival": "12:25",
+          "duration": "40 min",
+          "description": "Explorar as ruínas da antiga abadia franciscana e seu famoso teixo central.",
+          "imageUrl": "https://thirdeyetraveller.com/wp-content/uploads/Muckross-Abbey-Ireland.jpg",
+          "address": "Muckross Abbey, Killarney National Park, Co. Kerry, Ireland",
+          "googleImages": "Muckross Abbey Ireland",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Acesso exterior durante todo o ano; visitar com luz do dia",
+          "priceNote": "Grátis.",
+          "routeToNext": {
+            "distance": "≈ 1 km",
+            "time": "≈ 5 min"
+          }
+        },
+        {
+          "type": "Atração",
+          "name": "Muckross House",
+          "arrival": "13:15",
+          "duration": "1h 10min",
+          "description": "Visita à histórica mansão vitoriana dentro do Killarney National Park.",
+          "imageUrl": "https://muckross-house.ie/wp-content/uploads/2024/06/Sunken-Garden.jpg",
+          "address": "Muckross, Killarney National Park, Co. Kerry, Ireland",
+          "googleImages": "Muckross House Killarney",
+          "requiresTicket": true,
+          "reservationRecommended": false,
+          "openingHours": "09:15–17:30 em novembro; última entrada 16:00",
+          "priceNote": "Adulto €9 em 2026. Estacionamento gratuito.",
+          "verificationNote": "Não é necessária pré-reserva para visitantes individuais.",
+          "routeToNext": {
+            "distance": "≈ 33 km",
+            "time": "≈ 40–45 min"
+          }
+        },
+        {
           "type": "Almoço rápido",
           "name": "Lanche de mercado",
-          "arrival": "12:30",
+          "arrival": "14:25",
           "duration": "20 min",
           "includeInMapRoute": false,
-          "description": "Sanduíches, frutas ou outro lanche simples para aproveitar a luz do dia.",
-          "imageUrl": ""
-        },
-        {
-          "type": "Mirante",
-          "name": "Ladies' View",
-          "arrival": "13:00",
-          "duration": "30 min",
-          "description": "Parada panorâmica com uma das vistas mais famosas do Killarney National Park.",
-          "imageUrl": "https://www.thebrehon.com/wp-content/uploads/2026/02/Ladies-View-Ring-of-KerryCounty-Kerry.tif_TI72YLK-Large.jpeg",
-          "address": "Ladies' View, Killarney National Park, Co. Kerry, Ireland",
-          "googleImages": "Ladies View Killarney",
-          "routeToNext": {
-            "distance": "≈ 35 km",
-            "time": "≈ 45–55 min"
-          }
-        },
-        {
-          "type": "Paisagem",
-          "name": "Gap of Dunloe",
-          "arrival": "14:20",
-          "duration": "1h 30min",
-          "description": "Explorar uma das paisagens montanhosas mais famosas de Kerry enquanto ainda há luz natural.",
-          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStAwpNYv6p_ujpcbycVunSXelHp0bjKm92lZkQqYtWvcprvyX1OiOCZUc&s=10",
-          "address": "Gap of Dunloe, Co. Kerry, Ireland",
-          "googleImages": "Gap of Dunloe Ireland",
-          "routeToNext": {
-            "distance": "≈ 40 km",
-            "time": "≈ 50–60 min"
-          }
+          "description": "Sanduíches, frutas ou outro lanche simples antes de seguir para Kenmare.",
+          "imageUrl": "",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Flexível"
         },
         {
           "type": "Destino",
           "name": "Kenmare",
-          "arrival": "17:00",
-          "duration": "1h",
-          "description": "Chegada e check-in na hospedagem depois do pôr do sol.",
+          "arrival": "15:30",
+          "duration": "Até o jantar",
+          "description": "Chegada a Kenmare, check-in e descanso antes do jantar.",
           "imageUrl": "",
           "address": "Kenmare, Co. Kerry, Ireland",
-          "googleImages": ""
+          "googleImages": "",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Sem restrição"
         },
         {
           "type": "Jantar",
@@ -347,7 +450,11 @@
           "description": "Refeição especial em restaurante muito bem avaliado, com foco em ingredientes irlandeses e produtos locais.",
           "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/00/e2/2a/caption.jpg?w=1000&h=1000&s=1",
           "address": "35 Main Street, Kenmare, Co. Kerry, Ireland",
-          "googleImages": "No 35 Kenmare Restaurant"
+          "googleImages": "No 35 Kenmare Restaurant",
+          "requiresTicket": false,
+          "reservationRecommended": true,
+          "openingHours": "Referência atual: sexta–terça, aproximadamente 17:00–21:00",
+          "verificationNote": "Confirmar horário de inverno para 21/11/2026 antes de reservar."
         },
         {
           "type": "Hospedagem",
@@ -356,7 +463,10 @@
           "duration": "Noite",
           "description": "Dormir em Kenmare. Hospedagem ainda será escolhida.",
           "imageUrl": "",
-          "googleImages": ""
+          "googleImages": "",
+          "requiresTicket": false,
+          "reservationRecommended": true,
+          "openingHours": "A definir"
         }
       ]
     },
@@ -373,6 +483,9 @@
           "imageUrl": "",
           "address": "Kenmare, Co. Kerry, Ireland",
           "googleImages": "",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Sem restrição",
           "routeToNext": {
             "distance": "≈ 27 km",
             "time": "≈ 30 min"
@@ -387,6 +500,9 @@
           "imageUrl": "https://images.trvl-media.com/place/6056872/e6a7d176-4bfc-4253-8886-6bae510b1158.jpg",
           "address": "Sneem, Co. Kerry, Ireland",
           "googleImages": "Sneem Ireland",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Área pública",
           "routeToNext": {
             "distance": "≈ 25 km",
             "time": "≈ 30–35 min"
@@ -401,6 +517,9 @@
           "imageUrl": "https://secretireland.ie/wp-content/uploads/2025/01/Derrynane-Beach-Johannes-Rigg-Shutterstock-Final.jpg.webp",
           "address": "Derrynane Beach, Caherdaniel, Co. Kerry, Ireland",
           "googleImages": "Derrynane Beach Ireland",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Acesso exterior; visitar com luz do dia",
           "routeToNext": {
             "distance": "≈ 15 km",
             "time": "≈ 20 min"
@@ -415,6 +534,9 @@
           "imageUrl": "https://d3fphkxyf5o5bm.cloudfront.net/image-resize/format=webp,w=720/QwRY54Li1HMwD7oNfpMgfGOMfqAqDQVsxVWodn1kgO",
           "address": "Com an Chiste, Ring of Kerry, Co. Kerry, Ireland",
           "googleImages": "Com an Chiste Ring of Kerry",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Mirante ao ar livre; visitar com luz do dia",
           "routeToNext": {
             "distance": "≈ 20 km",
             "time": "≈ 25 min"
@@ -429,6 +551,9 @@
           "imageUrl": "https://wearetravelgirls.com/wp-content/uploads/2016/10/waterville-ireland-we-are-travel-girls-1.jpg",
           "address": "Waterville, Co. Kerry, Ireland",
           "googleImages": "Waterville Kerry Ireland",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Área pública",
           "routeToNext": {
             "distance": "≈ 20 km",
             "time": "≈ 25–30 min"
@@ -441,17 +566,24 @@
           "duration": "25 min",
           "includeInMapRoute": false,
           "description": "Refeição simples para preservar as horas de luz para as paisagens do Skellig Ring.",
-          "imageUrl": ""
+          "imageUrl": "",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Flexível"
         },
         {
           "type": "Natureza",
           "name": "Kerry Cliffs",
           "arrival": "13:20",
           "duration": "1h 15min",
-          "description": "Uma das principais paisagens da viagem, com falésias dramáticas sobre o Atlântico. Visita sujeita às condições meteorológicas.",
+          "description": "Uma das principais paisagens da viagem, com falésias dramáticas sobre o Atlântico. Chegar cedo é importante em novembro.",
           "imageUrl": "https://images.cdn-files-a.com/uploads/7172738/800_638c7326ad023.jpg",
           "address": "Kerry Cliffs, Portmagee, Co. Kerry, Ireland",
           "googleImages": "Kerry Cliffs Ireland",
+          "requiresTicket": true,
+          "reservationRecommended": false,
+          "openingHours": "Horário publicado: aproximadamente 09:30–18:30; sujeito a alteração ou fechamento por clima",
+          "verificationNote": "Conferir abertura no próprio dia. Tempestades ou condições perigosas podem fechar o local.",
           "routeToNext": {
             "distance": "≈ 5 km",
             "time": "≈ 10 min"
@@ -465,7 +597,10 @@
           "description": "Chegada cedo a Portmagee. Aproveitar o restante da luz para conhecer a pequena vila e a costa antes do check-in.",
           "imageUrl": "",
           "address": "Portmagee, Co. Kerry, Ireland",
-          "googleImages": ""
+          "googleImages": "",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Área pública"
         },
         {
           "type": "Jantar",
@@ -475,7 +610,11 @@
           "description": "Jantar em Portmagee com foco em frutos do mar e comida local.",
           "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/66/b9/ae/caption.jpg?w=1100&h=1100&s=1",
           "address": "Portmagee, Co. Kerry, Ireland",
-          "googleImages": "Fisherman's Bar Skellig Restaurant Portmagee"
+          "googleImages": "Fisherman's Bar Skellig Restaurant Portmagee",
+          "requiresTicket": false,
+          "reservationRecommended": true,
+          "openingHours": "Horário de novembro de 2026 ainda precisa ser confirmado",
+          "verificationNote": "Portmagee é pequena e estabelecimentos podem reduzir horários fora da temporada. Confirmar alguns dias antes."
         },
         {
           "type": "Hospedagem",
@@ -484,7 +623,10 @@
           "duration": "Noite",
           "description": "Dormir em Portmagee. Hospedagem ainda será escolhida.",
           "imageUrl": "",
-          "googleImages": ""
+          "googleImages": "",
+          "requiresTicket": false,
+          "reservationRecommended": true,
+          "openingHours": "A definir"
         }
       ]
     },
@@ -501,6 +643,9 @@
           "imageUrl": "",
           "address": "Portmagee, Co. Kerry, Ireland",
           "googleImages": "",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Sem restrição",
           "routeToNext": {
             "distance": "≈ 15 km",
             "time": "≈ 20–25 min"
@@ -515,6 +660,9 @@
           "imageUrl": "https://www.irishcentral.com/uploads/article-v2/2021/7/146962/Enjoying_the_view___Valentia_Island__Co_Kerry_via_Tourism_Ireland.jpg?t=1789562913",
           "address": "Valentia Island, Co. Kerry, Ireland",
           "googleImages": "Valentia Island Ireland",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Ilha e estradas públicas; atrações individuais podem ter horários sazonais",
           "routeToNext": {
             "distance": "≈ 20 km",
             "time": "≈ 30 min"
@@ -529,6 +677,10 @@
           "imageUrl": "https://s2.wklcdn.com/image_244/7325981/179315688/112757447Master.jpg",
           "address": "Cahergall Stone Fort, Cahersiveen, Co. Kerry, Ireland",
           "googleImages": "Cahergall Stone Fort Ireland",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Aberto durante todo o ano; visitar com luz do dia",
+          "priceNote": "Grátis.",
           "routeToNext": {
             "distance": "≈ 4 km",
             "time": "≈ 10 min"
@@ -539,10 +691,14 @@
           "name": "Cahersiveen",
           "arrival": "11:30",
           "duration": "1h",
-          "description": "Almoço antes da longa viagem de volta. Escolher um café ou restaurante aberto e bem avaliado no dia.",
+          "description": "Almoço antes da longa viagem de volta. Escolher um café ou restaurante confirmado aberto na segunda-feira.",
           "imageUrl": "",
           "address": "Cahersiveen, Co. Kerry, Ireland",
           "googleImages": "",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "A confirmar perto da viagem",
+          "verificationNote": "Há informações conflitantes online sobre horários de segunda-feira de alguns cafés locais. Confirmar na semana da viagem.",
           "routeToNext": {
             "distance": "≈ 320 km",
             "time": "≈ 4h–4h 30min"
@@ -556,7 +712,10 @@
           "description": "Chegada em casa, jantar simples e descanso antes do voo do dia seguinte.",
           "imageUrl": "",
           "address": "Leixlip, Co. Kildare, Ireland",
-          "googleImages": ""
+          "googleImages": "",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Sem restrição"
         }
       ]
     },
@@ -573,6 +732,9 @@
           "imageUrl": "",
           "address": "Leixlip, Co. Kildare, Ireland",
           "googleImages": "",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "Sem restrição",
           "routeToNext": {
             "distance": "≈ 25 km",
             "time": "≈ 30–40 min"
@@ -583,10 +745,13 @@
           "name": "Dublin Airport",
           "arrival": "A definir",
           "duration": "Até o voo",
-          "description": "Levar os pais ao Dublin Airport para o voo de volta ao Brasil. O horário será ajustado quando o horário exato do voo estiver definido.",
+          "description": "Levar os pais ao Dublin Airport para o voo de volta ao Brasil. Ajustar a saída quando o horário exato do voo estiver definido.",
           "imageUrl": "",
           "address": "Dublin Airport, Collinstown, Co. Dublin, Ireland",
-          "googleImages": "Dublin Airport Ireland"
+          "googleImages": "Dublin Airport Ireland",
+          "requiresTicket": false,
+          "reservationRecommended": false,
+          "openingHours": "24h"
         }
       ]
     }
