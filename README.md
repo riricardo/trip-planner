@@ -1,0 +1,1 @@
+Roteiro 18–24 novembro 2026. Site estático para GitHub Pages. Inclui postos opcionais em Killarney, Kenmare e Cahersiveen, e posto para devolução no aeroporto. Verificar combustível correto e pressão dos pneus na etiqueta do veículo; nível de devolução conforme contrato.
